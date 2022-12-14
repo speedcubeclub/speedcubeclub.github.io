@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Emmaus Lutheran Cube Association【Rank】">
+    <title>Emmaus Lutheran Cube Association【Rank】</title>
+    <script src="./assets/js/rank.js"></script>
+    <script src="https://speedcubeclub.github.io/database/rank.js"></script>
+    <link rel="stylesheet" href="../assets/css/page_main_style.css" />
+    <link rel="stylesheet" href="./assets/css/rank_page_style.css" />
+    <link rel="stylesheet" href="./assets/css/rank_block_style.css" />
+</head>
+
+<body>
+    <div id="Title">
+        Emmaus Lutheran Cube Association【Rank】
+    </div>
+    <div class="Rank_Page_Block">
+        <div id="Rank_Block" onclick="window.location ='./rank/'">
+            <!--填充区域-->
+        </div>
+    </div>
+    <script>
+        document.body.onload = function body_load() {
+            rank_fill();
+            User_Name_UP();
+        }
+    </script>
+</body>
+
+</html>
