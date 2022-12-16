@@ -8,6 +8,8 @@
     <title>Emmaus Lutheran Cube Association【Rank】</title>
     <script src="https://speedcubeclub.github.io/cube/rank/assets/js/rank.js"></script>
     <script src="https://speedcubeclub.github.io/database/rank.js"></script>
+    <script src="https://speedcubeclub.github.io/cube/record/assets/js/record.js"></script>
+    <script src="https://speedcubeclub.github.io/database/record.js"></script>
     <link rel="stylesheet" href="https://speedcubeclub.github.io/cube/assets/css/page_main_style.css" />
     <link rel="stylesheet" href="https://speedcubeclub.github.io/cube/assets/css/home_page_style.css" />
     <link rel="stylesheet" href="https://speedcubeclub.github.io/cube/rank/assets/css/rank_block_style.css" />
@@ -25,15 +27,20 @@
     <div id="Title">
         Emmaus Lutheran Cube Association【Rank】
     </div>
-    <div class="Rank_Page_Block">
-        <div id="Rank_Block" onclick="window.location ='./rank/'">
+    <div class="Home_Page_Block">
+        <div id="Rank_Block">
+            <!--填充区域-->
+        </div>
+    </div>
+    <div class="Home_Page_Block">
+        <div id="Record_Block">
             <!--填充区域-->
         </div>
     </div>
     <script>
         document.body.onload = function body_load() {
             rank_fill();
-            User_Name_UP();
+            record_fill();
         }
     </script>
 </body>
